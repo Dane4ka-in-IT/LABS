@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Laba/1/main.cpp
+iostream
+-
+string
+-
+replace_letters.h
+/root/Laba/1/replace_letters.h
+
+/root/Laba/1/replace_letters.cpp
+string
+-
+
+/root/Laba/1/replace_letters.h
+string
+-
+

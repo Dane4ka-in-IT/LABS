@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/C++/binary_to_hex.h
+string
+-
+stdexcept
+-
+
+/root/C++/main.cpp
+iostream
+-
+string
+-
+binary_to_hex.h
+/root/C++/binary_to_hex.h
+

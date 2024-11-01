@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/figure.h
+iostream
+-
+
+../include/rectangle.h
+figure.h
+../include/figure.h
+cmath
+-
+
+../include/square.h
+figure.h
+../include/figure.h
+cmath
+-
+
+../include/trapezoid.h
+figure.h
+../include/figure.h
+cmath
+-
+
+/root/C++/3/src/main.cpp
+iostream
+-
+vector
+-
+memory
+-
+figure.h
+/root/C++/3/src/figure.h
+square.h
+/root/C++/3/src/square.h
+rectangle.h
+/root/C++/3/src/rectangle.h
+trapezoid.h
+/root/C++/3/src/trapezoid.h
+
